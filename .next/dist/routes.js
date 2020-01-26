@@ -1,0 +1,6 @@
+"use strict";
+
+var routes = require("next-routes")();
+routes.add("/projects/new", "/projects/new").add("/projects/:address", "/projects/show").add("/projects/:address/validate", "/projects/validate").add("/projects/:address/reject", "/projects/reject").add("/projects/:address/donate", "/projects/donate").add("/projects/:address/add", "/projects/add");
+module.exports = routes;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInJvdXRlcy5qcyJdLCJuYW1lcyI6WyJyb3V0ZXMiLCJyZXF1aXJlIiwiYWRkIiwibW9kdWxlIiwiZXhwb3J0cyJdLCJtYXBwaW5ncyI6Ijs7QUFBQSxJQUFNLFNBQVMsQUFBZjtBQUNBLE9BQU8sQUFBUCxJQUFXLEFBQVgsaUJBQTJCLEFBQTNCLGlCQUNDLEFBREQsSUFDSyxBQURMLHNCQUMyQixBQUQzQixrQkFFQyxBQUZELElBRUssQUFGTCwrQkFFbUMsQUFGbkMsc0JBR0MsQUFIRCxJQUdLLEFBSEwsNkJBR2lDLEFBSGpDLG9CQUlDLEFBSkQsSUFJSyxBQUpMLDZCQUlpQyxBQUpqQyxvQkFLQyxBQUxELElBS0ssQUFMTCwwQkFLOEIsQUFMOUI7QUFNQSxPQUFPLEFBQVAsVUFBaUIsQUFBakIiLCJmaWxlIjoicm91dGVzLmpzIiwic291cmNlUm9vdCI6IkM6L1VzZXJzL2RoaXJhL0Rlc2t0b3AvQWx0Q29pbiJ9
